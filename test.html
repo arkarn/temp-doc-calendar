@@ -1,0 +1,14 @@
+<html>
+    
+    <body>
+        <iframe id="gcal" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FSingapore&bgcolor=%23ffffff&mode=WEEK&src=ZjBiNDM5NjlmYTY5YzMwMTA0MjVhYzhjYzI1ZDc4OTFiZGUwNzExYzg2NWQwNGNlODY1NTM3MTMyOWI5M2IwNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <script>
+            // window.setInterval("reloadIFrame();", 2000);
+            function reloadIFrame() {
+                document.getElementById("gcal").src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FSingapore&bgcolor=%23ffffff&mode=WEEK&src=ZjBiNDM5NjlmYTY5YzMwMTA0MjVhYzhjYzI1ZDc4OTFiZGUwNzExYzg2NWQwNGNlODY1NTM3MTMyOWI5M2IwNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300";
+            }
+        </script>
+        <button onclick="reloadIFrame();">Refresh Calendar</button>    
+    </body>
+</html>
+
